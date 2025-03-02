@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: discovery-server
+  cloud:
+    config:
+      enabled: false
+  profiles:
+    active: unit-test
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
