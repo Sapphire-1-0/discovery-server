@@ -32,3 +32,5 @@ build/
 
 ### VS Code ###
 .vscode/
+### Contains git personal access token ###
+push.sh
